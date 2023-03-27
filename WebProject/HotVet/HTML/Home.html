@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- css page-->
+<!--    <link rel="stylesheet" href="../CSS/DarkTemplate.css">-->
+<!--    <link rel="stylesheet" href="../CSS/HomeDrak.css">-->
+
+    <link rel="stylesheet" href="../CSS/LightTemplate.css">
+    <link rel="stylesheet" href="../CSS/HomeLight.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- tab header-->
+    <title>Hot Vet</title>
+    <link rel="icon" type="image/*" href="../Images/HotVetLogo.png">
+</head>
+
+<body>
+
+<!--navbar-->
+<nav class="navbar navbar-expand-lg fixed-top navbar-light"  >
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <table>
+                <tr>
+                    <td>
+                        <img src="../Images/HotVetLogo.png" class="d-inline-block align-top" id="topLogo" alt="Logo">
+                    </td>
+                    <td>
+                        <h1> <span id="hotId">Hot</span> <span id="vetId">Vet</span></h1>
+                    </td>
+                </tr>
+            </table>
+        </a>
+<!--        button that appear when collapse-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nvbCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="nvbCollapse">
+            <ul class="navbar-nav  ms-auto" >
+                <li class="nav-item ms-auto">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item ms-auto">
+                    <a class="nav-link" href="#">Doctors</a>
+                </li>
+                <li class="nav-item ms-auto">
+                    <a class="nav-link" href="#">Pets</a>
+                </li>
+                <li class="nav-item ms-auto">
+                    <a class="nav-link" href="#">Category</a>
+                </li>
+                <li class="nav-item ms-auto">
+                    <a class="nav-link" href="#">Stories</a>
+                </li>
+                <li class="nav-item ms-auto">
+                    <a class="nav-link" href="#">Log in</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--navbar-->
+
+
+
+<!--carousel-->
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active" >
+            <img src="../Images/SliderImg1.png" class="d-block w-100" alt="cat" >
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Make a new Friend!</h1>
+                <h3>our vet helps a lot af animals.</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="../Images/SliderImg2.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Meet our Doctors!</h1>
+                <h3>our Doctors are very qualified.</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="../Images/SliderImg3.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Adopt don't buy!</h1>
+                <h3>Millions of pets are waiting for a warm home</h3>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!--carousel-->
+
+
+<!--footer-->
+<footer class="footerClass">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+
+        <div class="row">
+
+            <div class="col">
+                <!-- Copyright -->
+                <div class="text-center p-3" >
+                    <span class="text" href="#">Hot Vet website using: <br> bootstrap, HTM, CSS, JS, PHP </span>
+                </div>
+                <!-- Copyright -->
+            </div>
+
+            <div class="col">
+                <!-- Copyright -->
+                <div class="text-center p-3" >
+                    © 2022 Copyright:
+                    <span class="text" href="#">Mayar and Jenan</span>
+                </div>
+                <!-- Copyright -->
+            </div>
+
+            <div class="col">
+            Contact us
+            <!-- Section: Social media -->
+             <div class="mb-4">
+                <!-- Facebook -->
+                <a class="btn " href="https://www.facebook.com/animallife.page" target="_blank" role="button">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <!-- Gmail -->
+                <a class="btn" href="mailto:mayarabdilkareem1@gmail.com" target="_blank" role="button">
+                    <i class="bi bi-envelope-fill"></i>
+                </a>
+                <!-- Google -->
+                <a class="btn btn-floating m-1" href="https://en.wikipedia.org/wiki/Animal" ratget="_blank" role="button">
+                    <i class="bi bi-google"></i>
+                </a>
+            </div>
+            </div>
+    </div>
+</div>
+
+</footer>
+<!--footer-->
+
+
+<scrip src="../node_modules/jquery/dist/jquery.slim.min.map"></scrip>
+<script src = "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

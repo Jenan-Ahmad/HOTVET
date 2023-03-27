@@ -1,0 +1,11 @@
+
+.carousel-caption {
+    top: 200px;
+    bottom: auto;
+    text-align: left;
+    color: #28242c;
+}
+
+#carouselExampleFade{
+    margin-top: 10vh;
+}
